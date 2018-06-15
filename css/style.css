@@ -1,0 +1,400 @@
+body{
+    margin: 0;
+}
+
+.navegacao {
+    background-color: rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    font-family: 'Asap', sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;    
+}
+
+.lista {
+    display: inline;
+    justify-content: space-around;
+}
+
+.lista li {
+    list-style: none;
+    color: #fff;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.lista a{
+    color:#fedd6a;
+    border-style: solid;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+.lista li:last-child {
+    margin-right: 0;
+}
+
+header{
+    background: url(../img/bg-banner.png);
+    background-size: cover;
+    min-height: 85vh;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.msg-principal {    
+    text-align: center;
+    max-width: 630px;
+    margin: 0 auto;
+    padding-top: 15px;
+    color: white;
+}
+
+.msg-principal h1{
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+.msg-principal p{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.msg-principal a{
+    background-color: #fedd6a;
+    color: saddlebrown;
+    padding: 10px 35px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    opacity: 10px;     
+    font-family: 'Asap';
+}
+
+.Sobre {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;  
+    margin-top: 20px;
+    padding-bottom: 30px;  
+}
+
+.sobre-img{
+    margin-right: 20px;
+}
+.sobre-texto h2{
+    font-size: 28px;
+}
+
+.sobre-texto p{
+    text-align: left;
+    font-size: 20px;    
+}
+
+
+.passo-a-passo h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.pontos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.passo1{
+    display: inline;
+    float: left;
+    text-align: center;
+    width: 30%;
+    font-size: 25px;
+       
+}
+
+.passo2{
+    display: inline;
+    text-align: center;
+    width: 30%;
+    font-size: 25px;
+    
+}
+
+.passo3{
+   display: inline;
+   text-align: center;
+   width: 30%;
+   font-size: 25px;
+
+}
+
+.servicos{
+    background-image: url(../img/bg-servicos.png);
+    min-height: 70vh;
+}
+
+.servicos h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.opcoes{
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+     text-align: center;
+}
+
+.servicos-oferecidos{
+    background-color: dodgerblue;
+    color: white;
+    justify-content: space-between;
+    margin-right: 40px;
+    font-size: 25px;
+    width: 460px;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.servicos-oferecidos a{
+    color: sienna;
+    background-color: khaki;
+    padding: 15px;
+    margin-top: 80px;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+
+.servicos-roteiros{
+    background-color: dodgerblue;
+    color: white;
+    justify-content: space-between;
+    font-size: 25px;
+    width: 460px;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.servicos-roteiros a{
+    color: sienna;
+    background-color: khaki;
+    padding: 15px;
+    margin-top: 30px;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.curiosidades{
+    background-image: url(../img/bg-numeros.png);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+.curiosidades h2{
+    font-size: 30px;
+}
+
+.curiosidades > div{
+    display: inline-block;
+    width: 30%;
+    font-size: 30px;
+}
+
+.curiosidades div span{
+    color: yellow;
+    font-size: 40px; 
+}
+
+.contato-texto{
+    text-align: center;
+    font-size: 20px;    
+}
+
+#contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.formulario {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.dados {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 150px;
+}
+
+.dados input {
+    background-color: #f3f394;
+    border: #ffff66;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.mensagem label {
+    width: 100%;
+    text-align: left;
+    margin-left: 5px;
+}
+.mensagem input {
+    display: block;
+    margin-left: 5px;
+    background-color: #f3f394;
+    border: #ffff66;
+    padding: 5px 0;;
+}
+
+.mensagem textarea {
+    display: block;
+    margin-left: 5px;
+    background-color: #f3f394;
+    border: #ffff66;
+}
+.enviar {
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    background-color: #1a8cff;
+    color: white;
+    align-items: center;
+    font-size: 100%;
+    text-transform: uppercase;
+    border-radius: 2px;
+    border: #1a8cff;
+}
+
+.newsletter {
+    background-color: #ffff66;
+    padding: 50px 0;
+    width: 100%;
+}
+
+.newsletter h2 {
+    font-size: 40px;
+    font-family: 'Flamenco', Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.cadastro {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.emailnews {
+    padding: 6px 200px 6px 0;
+    font-size: 100%;
+    margin-left: 5px;
+}
+
+.comecaragora {
+    padding: 6px 40px 6px 40px;
+    font-size: 100%;
+    background-color: tomato;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: tomato;
+}
+
+footer mapa{
+    width: 100%;
+}
+
+footer > div {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #595959;
+    color: white;
+}
+
+footer > div {
+    padding-top: 10px;
+}
+
+
+footer ul li {
+    font-family: 'Flamenco', Arial, Helvetica, sans-serif;
+    list-style: none;
+    font-size: 12px;
+    text-align: left;
+    padding: 2px;
+}
+
+footer ul a {
+    font-family: 'Flamenco', Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.brand {
+    font-size: 13px;
+}
+
+.brand span {
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.brand > img {
+    width: 100px;
+    padding-bottom: 10px;
+}
+
+.brand > a {
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: none;
+    padding-bottom: 20px;
+}
+
+.brand > p {
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+.redes p {
+    font-size: 14px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.redes img {
+    width: 50px ;
+    padding: 5px;
+}
